@@ -1,0 +1,69 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+}
+
+.common-inner{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+/*headline*/
+.headline{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.35em;
+}
+
+/*color*/
+.t-red{color:#f10000;}
+.t-well{color:#d76000;}
+.t-en{color: #599100;}
+.t-work{color: #028ab6;}
+.t-cul{color: #9b64d3;}
+
+/*background*/
+.b_house{background-color:#c35c3c;}/*주택*/
+.b_eco{background-color:#069363;}/*경제*/
+.b_traffic{background-color:#337ee2;}/*교통*/
+.b_env{background-color:#599100;}/*환경*/
+.b_wel{background-color:#d76000;}/*복지*/
+.b_safty{background-color:#e44869;}/*안전*/
+.b_cul{background-color:#9b64d3;}/*문화*/
+.b_work{background-color:#028ab6;}/*행정*/
+
+/*스프라이트 이미지 사용*/
+.header .logo a,
+.serch-area .btn-submit::before,
+.sc-slide .slide-control .btn::before,
+.sc-board .link-more,
+.sc-news .btn.link-all::after,
+.sc-banner .slide-control .btn::after,
+.customer-area .btn-call{
+    background: url(../images/sp_icon_set_common.png) no-repeat;
+    background-size: 300px;
+}
+
+.sc-slide .slide-tab .ico{
+    background: url(../images/sp_icon_main.png) no-repeat;
+    background-size: 300px;
+}
+.sc-service .service-item a::before{
+    background: url(../images/sp_icon_set_service.png) no-repeat;
+    background-size: 1200px;
+}
+
+.group-sns .ico-seoul::after,
+.group-sns .sns-wrap .link-sns{
+    background: url(../images/sp_ico_sns_list.png) no-repeat;
+    background-size: 280px;
+}
+
+.footer .sns-area .link-sns{
+    background: url(../images/sp_footer_sns.png) no-repeat;
+    background-size: 175px;
+}
