@@ -57,7 +57,7 @@ $(function(){
       $('.sc-slide .slide-tab a').removeClass('active');
       $(this).addClass('active');
        
-      visualSlide.slideTo(idx);
+      visualSlide.slideToLoop(idx);
     });
 
     /**
