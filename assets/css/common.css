@@ -45,7 +45,7 @@
 .serch-area .btn-submit::before,
 .sc-slide .slide-control .btn::before,
 .sc-board .link-more,
-.sc-news .btn.link-all::after,
+.sc-news .link-all::after,
 .sc-banner .slide-control .btn::after,
 .customer-area .btn-call{
     background: url(../images/sp_icon_set_common.png) no-repeat;
